@@ -1,0 +1,81 @@
+
+/* this is the code to style the text and the list */
+.caption {
+    font-style: italic;
+}
+
+h2 { 
+font-weight: bold;
+}
+
+
+span { 
+	font-weight: bold; 
+	font-style: normal;
+}
+
+ul {
+	font-style: italic
+
+}
+
+.unstyled {
+	list-style-type: none;
+}
+
+
+/*what is this even? dont really understand what box-sizing property is!!*/ 
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*    this is the code to style the divs and block model to line up correctly   */ 
+.image1 {
+  padding: 5px;
+  height: 250px;
+  width: auto;
+  margin: 0 50px;
+  
+}
+.text {
+
+  border: 2px solid lightgrey;
+  
+}
+
+body {
+    margin-left: 300px;
+    margin-right: 500px;
+   /* height: auto;
+    width: auto; */
+    box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
+    border-radius: 4px;
+    padding-bottom: 20px;
+}
+
+p {
+  padding: 0 10px 0 10px;
+}
+
+.card {
+    display: block;
+    -webkit-margin-before: .5em;
+    -webkit-margin-after: .5em;
+    -webkit-margin-start: 15px;
+    -webkit-margin-end: 15px; 
+}
+
+.text { 
+     display: block;
+    -webkit-margin-before: .5em;
+    -webkit-margin-after: .5em;
+    -webkit-margin-start: 15px;
+    -webkit-margin-end: 15px; 
+}
+
+
+
+
